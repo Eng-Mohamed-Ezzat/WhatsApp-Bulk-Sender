@@ -3,7 +3,7 @@
 A powerful and user-friendly Python GUI application for sending bulk WhatsApp messages with images. Built with Tkinter and PyWhatKit, this tool automates the process of sending personalized image messages to multiple contacts.
 
 ![Python Version](https://img.shields.io/badge/python-3.7+-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
+![License](https://img.shields.io/badge/license-MIT%20with%20Attribution-green.svg)
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey.svg)
 
 ## ✨ Features
@@ -191,11 +191,38 @@ Contributions, issues, and feature requests are welcome!
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 License
+## 📜 License & Attribution
 
-This project is licensed under the MIT License for **USE ONLY** - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License with Attribution Requirement**.
 
-**For modifications:** Please fork the [main repository](https://github.com/Eng-Mohamed-Ezzat/WhatsApp-Bulk-Sender) or contact the developer.
+### ✅ You are free to:
+- ✔️ Use the software for personal or commercial purposes
+- ✔️ Modify and adapt the code
+- ✔️ Distribute the software
+- ✔️ Use it privately
+
+### ⚠️ Requirements when modifying:
+- 📌 You **MUST** give credit to the original author
+- 📌 You **MUST** link back to the original repository
+- 📌 You **MUST** indicate if changes were made
+- 📌 You **MUST** include the original license
+
+### 📝 How to give attribution:
+
+When you modify this code, include something like this in your README:
+
+```
+Based on WhatsApp Bulk Sender (https://github.com/Eng-Mohamed-Ezzat/WhatsApp-Bulk-Sender)
+by Eng. Mohamed Ezzat (https://github.com/Eng-Mohamed-Ezzat)
+```
+
+---
+
+**Original Repository:** https://github.com/Eng-Mohamed-Ezzat/WhatsApp-Bulk-Sender  
+**Author:** Eng. Mohamed Ezzat  
+**Contact:** +201062048212
+
+سبحان الله وبحمده، سبحان الله العظيم
 
 ## ⚖️ Disclaimer
 
