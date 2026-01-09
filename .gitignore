@@ -42,6 +42,13 @@ Thumbs.db
 *.gif
 *.bmp
 
+# Allow images in screenshots folder for documentation
+!screenshots/*.jpg
+!screenshots/*.jpeg
+!screenshots/*.png
+!screenshots/*.gif
+!screenshots/*.bmp
+
 # Logs
 *.log
 
