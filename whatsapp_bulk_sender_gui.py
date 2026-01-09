@@ -1,5 +1,6 @@
 import pywhatkit as kit
 import os
+import sys
 import time
 import random as rd
 import tkinter as tk
@@ -16,8 +17,22 @@ class WhatsAppSenderGUI:
         self.root.configure(bg="#1e1e2e")
         self.root.resizable(True, False)
         
-        # Get application startup path
-        self.folder_path = os.path.dirname(os.path.abspath(__file__))
+        # Get application startup path (where the .exe is located)
+        if getattr(sys, 'frozen', False):
+            self.base_path = sys._MEIPASS
+            self.folder_path = os.path.dirname(sys.executable)
+        else:
+            self.base_path = os.path.dirname(os.path.abspath(__file__))
+            self.folder_path = self.base_path
+        
+        # Set Window Icon
+        try:
+            icon_path = os.path.join(self.base_path, "whatsapp.png")
+            if os.path.exists(icon_path):
+                img = tk.PhotoImage(file=icon_path)
+                self.root.iconphoto(True, img)
+        except Exception as e:
+            print(f"Could not set window icon: {e}")
         
         # Configuration
         self.wait_time = 15
